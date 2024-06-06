@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Lepote - 2023204537</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Salon lepote</h1>
+
+        <h2>Zakaži termin</h2>
+        <form id="appointmentForm">
+            <div class="form-group">
+                <label for="clientSelect">Izaberi klijenta:</label>
+                <select id="clientSelect" class="form-control">
+      </select>
+            </div>
+            <div class="form-group">
+                <label for="serviceSelect">Izaberi uslugu:</label>
+                <select id="serviceSelect" class="form-control">      
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="stylistSelect">Izaberi stilistu:</label>
+                <select id="stylistSelect" class="form-control">      </select>
+            </div>
+            <div class="form-group">
+                <label for="appointmentSelect">Izaberi termin:</label>
+                <select id="appointmentSelect" class="form-control">      </select>
+            </div>
+            <button id="makeAppointmentBtn" type="button" class="btn btn-primary">Zakaži</button>
+        </form>
+
+        <h2>Usluge</h2>
+        <ul id="servicesList" class="list-group">
+        </ul>
+
+        <h2>Informacije o stilistima:</h2>
+        <table class="table" id="stylistTable">
+            <thead>
+                <tr>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Godine</th>
+                    <th>Pozicija</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <!-- Bootstrap JS and jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
